@@ -1,5 +1,23 @@
 # prismarine-physics
 
+# Updated by SMED:
+
+-index.js
+```js
+function getStatusEffectNamesForVersion (supportFeature) {
+    return {
+      jumpBoostEffectName: 'JumpBoost',
+      speedEffectName: 'Speed',
+      slownessEffectName: 'Slowness',
+      dolphinsGraceEffectName: 'DolphinsGrace',
+      slowFallingEffectName: 'SlowFalling',
+      levitationEffectName: 'Levitation'
+    }
+}
+```
+-
+-
+
 [![NPM version](https://img.shields.io/npm/v/prismarine-physics.svg)](http://npmjs.com/package/prismarine-physics)
 [![Build Status](https://github.com/PrismarineJS/prismarine-physics/workflows/CI/badge.svg)](https://github.com/PrismarineJS/prismarine-physics/actions?query=workflow%3A%22CI%22)
 [![Discord](https://img.shields.io/badge/chat-on%20discord-brightgreen.svg)](https://discord.gg/GsEFRM8)

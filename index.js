@@ -645,24 +645,13 @@ function getEnchantmentLevel (mcData, enchantmentName, enchantments) {
 }
 
 function getStatusEffectNamesForVersion (supportFeature) {
-  if (supportFeature('effectNamesAreRegistryNames')) {
-    return {
-      jumpBoostEffectName: 'jump_boost',
-      speedEffectName: 'speed',
-      slownessEffectName: 'slowness',
-      dolphinsGraceEffectName: 'dolphins_grace',
-      slowFallingEffectName: 'slow_falling',
-      levitationEffectName: 'levitation'
-    }
-  } else {
-    return {
-      jumpBoostEffectName: 'JumpBoost',
-      speedEffectName: 'Speed',
-      slownessEffectName: 'Slowness',
-      dolphinsGraceEffectName: 'DolphinsGrace',
-      slowFallingEffectName: 'SlowFalling',
-      levitationEffectName: 'Levitation'
-    }
+  return {
+    jumpBoostEffectName: 'JumpBoost',
+    speedEffectName: 'Speed',
+    slownessEffectName: 'Slowness',
+    dolphinsGraceEffectName: 'DolphinsGrace',
+    slowFallingEffectName: 'SlowFalling',
+    levitationEffectName: 'Levitation'
   }
 }
 
